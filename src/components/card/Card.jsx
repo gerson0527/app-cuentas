@@ -12,7 +12,7 @@ function Card() {
         labels: ['1', '2', '3', '4', '5', '6', '7', '8'],
         datasets: [
           {
-            data: [100, 65, 60, 50, 20, 25, 35, 80],
+            data: [100, 65, 60, 50, 20, 25, 100, 80],
             backgroundColor: 'rgba(0, 149, 255, 1)', // Azul oscuro
             borderColor: 'transparent',
             borderRadius: 5,
@@ -21,7 +21,7 @@ function Card() {
             barThickness: 9,
           },
           {
-            data: [-90, -90, -100, -15, -40, -30, -25, -10],
+            data: [-90, -90, -100, -15, -40, -30, -100, -90],
             backgroundColor: 'rgba(135, 206, 255, 1)', // Azul claro
             borderColor: 'transparent',
             borderRadius: 5,
