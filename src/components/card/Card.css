@@ -1,0 +1,28 @@
+.container__card{
+    margin: 0 auto;
+    width: 85%;
+    height: 345px;
+    background-color: white;
+    border-radius: 50px; /* Bordes redondeados mixtos */
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container__card__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px;
+}
+.card__title{
+    font-weight: 800;
+    font-size: 20px;
+    opacity: 0.9;
+    color: #3A3A3A;
+}
+.card__balacne{
+    margin-top: 8px;
+    text-align: left;
+    font-size: 15px;
+    color: #2D99FF;
+}
